@@ -48,6 +48,25 @@ Ballpoint, Fineliner, Marker, Pencil, Mechanical Pencil, Calligraphy Pen, Paintb
 | Auto-sync | Off | Sync automatically on a timer |
 | Sync interval | 5 min | How often to auto-sync |
 
+## Contributing
+
+Contributions are welcome! If you'd like to help improve this plugin:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Make your changes and test them in Obsidian
+4. Commit your changes (`git commit -m "Add my feature"`)
+5. Push to your branch (`git push origin feature/my-feature`)
+6. Open a Pull Request
+
+### Bug reports
+
+Please open an issue with:
+- A description of the problem
+- Steps to reproduce
+- Your Obsidian version and OS
+- Any relevant error messages from the developer console (Ctrl+Shift+I)
+
 ## License
 
 Copyright (c) 2026 Tim Dommett
