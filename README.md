@@ -20,11 +20,10 @@ Ballpoint, Fineliner, Marker, Pencil, Mechanical Pencil, Calligraphy Pen, Paintb
 
 ## Installation
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/TimDommett/Remarkable-Sync---Obsidian-Plugin/releases/latest)
-2. Create the folder `<vault>/.obsidian/plugins/remarkable-sync/`
-3. Copy the three files into that folder
-4. Open Obsidian Settings > Community Plugins > Enable "reMarkable Sync"
-5. Go to the plugin settings and authenticate with your reMarkable account
+1. Download or clone this repository
+2. Copy the `remarkable-sync/` folder into `<vault>/.obsidian/plugins/`
+3. Open Obsidian Settings > Community Plugins > Enable "reMarkable Sync"
+4. Go to the plugin settings and authenticate with your reMarkable account
 
 **Note:** This is a desktop-only plugin (requires Obsidian desktop app).
 
