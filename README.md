@@ -164,6 +164,12 @@ Please open an issue with:
 - Your Obsidian version and OS
 - Any relevant error messages from the developer console (Ctrl+Shift+I)
 
+## Acknowledgments
+
+The `.rm` file parsing implementation in this plugin is based on / inspired by
+[rmscene](https://github.com/ricklupton/rmscene) by Rick Lupton, originally
+written in Python. Licensed under the MIT License.
+
 ## License
 
 Copyright (c) 2026 Tim Dommett
@@ -173,7 +179,10 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE). Y
 ### Third-party licenses
 
 This project bundles the following MIT-licensed libraries:
-- [pdf-lib](https://github.com/Hopding/pdf-lib) by Andrew Dillon
-- [jszip](https://github.com/Stuk/jszip) by Stuart Knightley et al.
+- [pdf-lib](https://github.com/Hopding/pdf-lib) by Andrew Dillon (and its dependencies)
+- [jszip](https://github.com/Stuk/jszip) by Stuart Knightley et al. (and its dependencies: pako, lie, readable-stream)
+
+The `.rm` file parser is derived from:
+- [rmscene](https://github.com/ricklupton/rmscene) by Rick Lupton — MIT License
 
 See [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES) for full license texts.

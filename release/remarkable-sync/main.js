@@ -7060,6 +7060,19 @@ var RemarkableSyncSettingTab = class extends import_obsidian.PluginSettingTab {
         this.display();
       })
     );
+    containerEl.createEl("h2", { text: "Support" });
+    const donateEl = containerEl.createDiv({ cls: "remarkable-sync-donate" });
+    const donateLink = donateEl.createEl("a", {
+      href: "https://buymeacoffee.com/keystone.studios"
+    });
+    donateLink.setAttr("target", "_blank");
+    const donateImg = donateLink.createEl("img", {
+      attr: {
+        src: "https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png",
+        alt: "Buy Me A Coffee"
+      }
+    });
+    donateImg.style.height = "60px";
   }
 };
 

@@ -2,7 +2,12 @@
  * reMarkable v6 .rm File Parser
  *
  * Parses the v6 binary format used by reMarkable software version 3+
- * (including Paper Pro). Large parts of the implementation are inspired by the rmscene project.
+ * (including Paper Pro).
+ *
+ * Based on / inspired by rmscene by Rick Lupton
+ * https://github.com/ricklupton/rmscene
+ * Licensed under the MIT License
+ * Copyright (c) 2023 Rick Lupton
  *
  * Block format: u32 LE (length) + u8 (reserved) + u8 (minV) + u8 (curV) + u8 (type)
  * Tag format: varint where index = varint >> 4, type = varint & 0xF
